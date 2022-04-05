@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{ /* el cuerpo y la imagen de fondo*/
+    background: url("img/fondo\ de\ pagina.jpg");
+    font-family: "calibri";
+    background-size: 100%;
+}
+header{ /*el icono de la pagina y la barra de navegacion*/
+    background: url('IMG/fondo_normal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+footer{ /* el pie de pagina*/
+    background: white;
+}
+section{ /* todo el contenido de los 5 tips*/
+    margin: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow:hidden;
+}
+#logo{ /* el logo de el mundo*/
+    height: 60px;
+    padding-left: 150px;
+    float: left;
+}
+
+#B_navegacion{ /* las barra de navegacion*/
+    float: right;
+    line-height: 100px;
+    padding-right: 20px;
+
+}
+#B_navegacion a{ /* las opciones de la barra de navegacion*/
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: bold;
+}
+
+#B_navegacion a:hover{ /* pasar el mosue pr la barra de navegacion superior*/
+    background: rgb(100, 189, 100);
+    border-radius: 10px;
+}
+
+
+#mundo-chan{ 
+    width: 260px;
+    padding-right: 600px;
+
+}
+#texto_introduccion:{
+    margin-left: 60px;
+}
+
+li{
+    font-weight: bold;
+}article{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: 50px;
+    width: 500px;
+    
+}
+@media screen {max-width: 950px;
+    #logo,#B_navegacion{
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+}

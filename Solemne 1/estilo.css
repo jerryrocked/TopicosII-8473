@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#titulo{
+    font-size: 2em;
+    padding-left: 550px;
+}
+#izuku{
+    display: inline-block;
+}
+#shoto{
+    display: inline-block;
+}
+
+#bakugo{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    display: inline-flex;
+    padding: 10px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: red;
+    text-align: center;
+}
+li a:hover{
+     background-color: rgb(141, 167, 201) ;
+     color: black;
+
+}
+
+#seccion img{
+    display: inline-block;
+    padding-left: 500px;
+}
+
+#seccion h2{
+    font-size: 2em;
+    padding-left: 400px;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+footer a:hover{
+     padding: 50px 0 10px 1150px;
+     display: inline-block;
+     background-color: rgb(215, 247, 189);
+
+ }
+
+@media only screaen and (max-width:600px){
+header h1{
+    background-color: red;
+}
+}
