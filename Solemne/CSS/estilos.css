@@ -1,0 +1,57 @@
+* {
+    margin: 6px;
+    padding: 6px;
+    border: 0;
+  }
+
+body{
+    background-image: url(../IMG/Contaminación-del-aire-1.jpg);
+}
+
+h1{
+    text-align:center;
+    color: #fff;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+
+
+#section{
+    width: 100%;
+	margin: 0px;
+	background-color: rgb(255, 255, 255);
+	display: inline-block;	
+}
+
+.table-contenedor{
+    width: 100%;
+    float: left;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.one-table{
+    float: left;
+    border: 1px solid black;
+}
+
+.table-second{
+    float: right;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: black;
+    width: auto;
+    height: auto;
+    text-align:center;
+    color: #fff;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    
+}    
+    
