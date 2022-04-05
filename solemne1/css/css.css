@@ -1,0 +1,247 @@
+/*ajustar borde*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+/*ajustar el texto*/
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+/*cambiar el titulo y centrarlo*/
+.titulo {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+/*arreglar el encabezado y personalizarlo*/
+header {
+    width: 100%;
+    height: 600px;
+    background: #cb2d3e;
+    background: -webkit-linear-gradient(to right, hsla(212, 85%, 58%, 0.678), hsla(209, 64%, 49%, 0.596)), url(../img/Tierra.jpg); 
+    background: linear-gradient(to right, hsla(212, 85%, 58%, 0.678), hsla(209, 64%, 49%, 0.596)), url(../img/Tierra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+/*ordenar el texto del header para centrarlo*/
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+/*cambiar el color de la letra y su tamaño*/
+.textos-header h1{
+    font-size: 50px;
+    color: #ffff;
+}
+/*cambiar el color de la letra y su tamaño*/
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffff;
+}
+/*hacer los bordes de l tabla*/
+table{
+    border: 2px solid black;
+}
+/*hacer los bordes de las filas y columnas de la tabla*/
+tr, th, td{
+    border: 2px solid black;
+}
+/*ordenar las tablas para ponerlas alado de la otra*/
+.contenedorjefe{
+    display: flex;
+    justify-content: space-between;
+}
+/*separar las tablas*/
+table{
+    margin: 60px;
+}
+
+/*cambiar el tamaño de las banderas*/
+.Banderas{
+    width: 120px;
+    height: 60px;
+
+}
+/*ajustar el texto y cambiar el tamaño de las imagenes*/
+.ids{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*cambiar el tamaño de las imagenes*/
+.ids .id img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border: 5px solid #fff;
+
+    display: block;
+}
+/*ajustar el video para que quede sentrado(no quedo tan centrado*/
+.video .iframe{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border: 5px solid #fff;
+
+    display: block;
+
+}
+/*crear y darle forma al pie de pagina*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin:auto;
+    overflow: hidden;
+}
+/*ajustar las secciones del pie de pagina*/
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+/*centrar el pie de pagina*/
+.content-foo{
+    text-align: center;
+
+}
+/*arreglar las palabras del pie de pagina*/
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom:  20px;
+}
+.content-foo a{
+    text-decoration: none;
+
+}
+.content-foo p{
+    color: #ccc;
+    
+}
+/*modificar el copyright que puse al pie de pagina*/
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+/*responsive que salio medio mal*/
+/*para diferentes medidas*/
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+    /*ajustar articulos*/
+    .ids{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ids .id{
+        width: 90%;
+    }
+    .ids .id:first-child{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:300px){
+    header{
+        background-position: center;
+    }
+    /*ajustar articulos*/
+    .ids{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ids .id{
+        width: 90%;
+    }
+    .ids .id:first-child{
+        margin-bottom: 30px;
+    }
+    /*ajustar el pie de pagina*/
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+
+    }
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content-foo h4{
+        border: none;
+    }
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom:  20px;
+    }
+}
+@media screen and (max-width:600px){
+    header{
+        background-position: center;
+    }
+    /*ajustar articulos*/
+    .ids{
+        background-position: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ids .id{
+        background-position: center;
+        width: 90%;
+    }
+    .ids .id:first-child{
+        background-position: center;
+        margin-bottom: 30px;
+    }
+    /*ajustar pie de pagina*/
+    .contenedor-footer{
+        background-position: center;
+        flex-direction: column;
+        border: none;
+
+    }
+    .content-foo{
+        background-position: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content-foo h4{
+        background-position: center;
+        border: none;
+    }
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom:  20px;
+        background-position: center;
+    }
+}
