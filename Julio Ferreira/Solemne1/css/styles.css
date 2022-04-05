@@ -1,0 +1,149 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Main container flex para acomodar bien las tablas con el aside */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Main container flex para acomodar bien ambas tablas */
+
+.main-tables {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos generales de las tablas */
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid black;
+    margin: 20px
+}
+
+th, tr, td {
+    border: 2px solid black;
+}
+/* Estilos del aside */
+.main-aside ul li {
+    font-size: 150%;
+    padding: 40px;
+    border-bottom: 2px solid rgb(52, 52, 173);
+    list-style-type: none;
+}
+/* Estilo banderas img */
+.banderas {
+    height: 41px;
+    width: 61px;
+}
+/* Contenedor de articulos flex para acomodarlos */
+.articles-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Estilo de articulos */
+.one-third-padding {
+    width: 400px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilo img  de articulos*/
+.one-third-padding img{
+    height: 281px;
+    width: 281px;
+}
+
+/* Acomodando aside */
+.main-aside ul {
+    text-align: center;
+}
+
+/* Acomodando imagen del header */
+.main-header img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Contenedor nav flex para acomodar el nav con el logo */
+nav {
+    display: flex;
+}
+
+/* Estilo nav ul y flex para acomodar los links */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+/* Separacion de elementos del nav */
+nav ul li{
+    margin: 30px 50px 30px 50px;
+}
+
+/* Acomodando el logo */
+.logo img {
+    width: 120px;
+    height: 70px;
+}
+
+/* Estilo footer y flex para acomodar el responsive */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 50px;
+    background-color: rgb(40, 83, 83);
+} 
+
+/* Estilos para el footer */
+.footer-nav li{
+    padding: 50px;
+}
+
+.footer-nav li a{
+    color: white
+}
+
+/* Imagenes fifa */
+.fifa {
+    width: 80px;
+    height: 70px;
+}
+.calendario {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Responsive para tablas y quitando nav */
+    table {
+        width: 200px;
+    }
+    nav ul{
+        display: none;
+    }
+}
