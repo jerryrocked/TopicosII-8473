@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    background-image: url(imagenes/planeta\ tierra.jpg);
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    background-position-y:center ;
+}
+header .TextoHeader{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.TextoHeader h1{
+    font-size: 50px;
+    color: black;
+}
+
+.TextoHeader h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(0, 0, 0);
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+.Articulos{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: green;
+}
+.imagen{
+    float: left;
+}
+
+.Tablas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+.Tabla1{
+    margin-left: 400px;
+}
+.Tabla2{
+    margin-right: 400px;
+}
+.Titulo{
+    background-color: rgb(17, 221, 17);
+}
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+.body{
+    background-color: green;
+}
+
