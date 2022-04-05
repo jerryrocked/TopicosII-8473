@@ -1,0 +1,223 @@
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: Verdana; 
+	text-align: center;
+	margin: 0rem;
+	padding: 2rem;
+}
+
+.imagen-principal {
+	width: 100%;
+	max-width: 1200px;
+	display: block;
+	margin: 0px auto;
+	
+}
+
+.imagen-div {
+	background-color: rgb(105, 105, 105);
+}
+
+.bg-h1 {
+	background-color: blue;
+}
+
+body{
+	font-family: Arial, Helvetica;
+	background-image: url(../img/estadio.png);
+	background-position: center;
+	height: 900px;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+.menu-bar-div{
+	background-color: rgb(245, 245, 56);
+}
+.menu-bar {
+	list-style: none;
+	padding: 0;
+	background: yellow;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	
+}
+
+.menu-bar li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+	
+}
+
+.menu-bar li {
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.menu-bar li a:hover{
+	background: greenyellow;
+}
+
+.linea-negra {
+	background-color: rgb(26, 26, 26);
+}
+
+.noticias-bar {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+}
+
+.tarjeta {
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #fff;
+	cursor: default;
+	transition: all 400ms ease;
+}
+
+.tarjeta:hover {
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.tarjeta img{
+	width: 100%;
+	height: 210px;
+}
+
+.tarjeta .contenidoo{
+	padding: 15px;
+	text-align: center;
+}
+
+.card .contenido p{
+	line-height: 1.5;
+	color: #6a6a6a;
+}
+
+
+/*
+Tablas para equipo.html
+ */
+
+#main-container {
+	margin: 150px auto;
+	width: 600px;
+}
+
+table {
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 20px;
+
+}
+
+thead {
+	background-color: #d84242;
+	border-bottom: solid 5px #3d0e0e;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+.jugadas-bar {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.linea-negra-footer {
+	background-color: rgb(26, 26, 26);
+	width:100%;
+	height:auto;
+	margin: 0px 0 0 0;
+}
+
+.pie-pag {
+	color: white;
+	text-align: center;
+}
+
+.icon-footer {
+	width: 50%;
+	max-width: 30px;
+	margin: 2px auto;
+	padding: 2px;
+}
+
+footer{
+	position: fixed;
+	width: 50%;
+	right: 0;
+	bottom: 0;
+	
+	color: white;
+	text-align: center;		
+}
+
+#articulo {
+	width: 900px;
+	height: auto;
+	float: left;
+
+}
+
+#articulo img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+}
+
+#articulo h2 {
+	font-size: 50px;
+	margin: 100px;
+	color: #ddd;
+}
+
+#articulo p{
+	text-align: justify;
+	padding: 5px;
+	font-size: 2vmin;
+	color: #ddd;
+}
+
+.fondo-blanco{
+	background-color: #ddd;
+	background: #fff;
+}
+
+#ultimo-titulo {
+	color: white;
+	
+}
