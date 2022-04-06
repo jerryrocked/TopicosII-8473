@@ -1,0 +1,37 @@
+body{
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+table{
+    border-color:white transparent;
+    width: 80%;
+    border:white transparent;
+    border-spacing: 0px ; 
+    font-size: 105%;
+    background-color: white transparent;
+    
+
+}
+
+
+#h{
+    background-color: rgb(78, 154, 109);
+}
+#h2{
+    background-color:rgb(255, 255, 255);;
+}
+.piedepagina{
+	background-color: #0a1b2a;
+	width: 100%;
+	height: 3%;
+	bottom: 0;
+	color:white;
+	font-style: italic;
+}

@@ -1,0 +1,30 @@
+body {
+    
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    }
+
+h1{
+    color:white;
+    background-color: rgb(10, 57, 42);
+    font-size: 400%;
+}
+
+img{
+    width: 80%;;
+
+}
+
+.piedepagina{
+	background-color: #0a1b2a;
+	width: 100%;
+	height: 3%;
+	bottom: 0;
+	color:white;
+	font-style: italic;
+}
