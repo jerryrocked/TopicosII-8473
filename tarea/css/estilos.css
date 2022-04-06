@@ -1,0 +1,360 @@
+/*Movil*/
+@media (max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+/*tablet*/
+@media (max-width: 768px) and (max-width: 990px) {
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+/*Escritorio*/
+@media (max-width: 991px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    background: none;
+    width: 100%;
+    height: 100px;
+}
+
+.imgheader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.encabezado {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+}
+
+.texto {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+}
+/*-----------------------------------------NOTICIAS-----------------------------------------------*/
+
+.noticias_publicidad {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja_padre_noticias {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+
+.cajafotoequipo {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 140px;
+    right: 0;
+}
+
+.cajaparrafofotoequipo {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 140px;
+    right: 0;
+    color: black;
+}
+/*-------------------------------------------PUBLICIDAD-------------------------------------------------*/
+
+.cajatitulopublicidad {
+    color: black;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+}
+
+.caja1publicidad {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+}
+
+.caja2publicidad {
+    position: absolute;
+    top: 390px;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+}
+/*--------------------------------------------GALERIA-----------------------------------------------*/
+.galeria {
+    margin-left: 90px;
+}
+
+/*--------------------------------------------FOTOS--------------------------------------------------*/
+body {
+    font-size: 16px;
+    background: url('img/fondo.jpg');
+    background-size: 100%;
+}
+
+.caja_padre_fotos {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.caja1fotos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.caja2fotos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 500px;
+    right: 0;
+}
+
+.caja3fotos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1000px;
+    right: 0;
+}
+
+.parrafo1fotos {
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.parrafo2fotos {
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.parrafo3fotos {
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/*--------------------------------VIDEOS-------------------------------------*/
+.caja_padre_videos {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    background-color: white;
+}
+
+.caja1videos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.parrafo1videos {
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*---------------------------------COMENTARIOS---------------------------------------*/
+.comentarios {
+    margin-left: 90px;
+}
+
+.caja_padre_comentarios {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    top: 30px;
+}
+
+.caja1comentarios {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+}
+.caja2comentarios {
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+}
+.caja3comentarios {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 55%;
+    right: 0;
+}
+.caja4comentarios {
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 55%;
+    right: 0;
+}
+/*---------------------------------TABLAS------------------------------------*/
+.divtabla {
+    margin-top: 30px;
+}
+
+.tabla{
+    margin-left: 90px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/*--------------------------------FOOTER-------------------------------------*/
+footer {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.parrafo_derechos {
+    background-color: white;
+    width: 530px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 5%;
+    right: 0;
+}
+
+.redes {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    bottom: 25%;
+    left: 85%;
+    right: 0;
+
+}
+
+.twitter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.youtube {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.facebook {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+}
+
+.instagram {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 75px;
+    right: 0;
+}
