@@ -1,0 +1,143 @@
+ol.lista {/*Estilo que tendran las listas ordenadas */ 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#lista{/*Fuente que tendra el id lista */ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{/*inserto imagen para enumeracion de lista, tamaño de fuente y su relleno */ 
+  font-size: 25px;
+  padding: 7px;
+  list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+}
+li a {/*relleno entre los elementos de lista y su color */ 
+  padding: 5px;
+  color:#004080; 
+}
+.default{/*clase default para las tablas */ 
+  padding: 10px;
+  padding-bottom: 10px;
+}
+h1{/*fuente,relleno y color para los textos h1 */ 
+  padding-top: 8px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{/*fuente,relleno y color para los textos h2 */ 
+  font-family: Arial, Helvetica, sans-serif;
+  color:#004080;
+}
+.head {/*tamaño,fuente y color para el div head */ 
+  width: 100%;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {/*margen,relleno e imagen de fondo */ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("img/fondo.jpg");
+}
+.contentyt{/*margenes,relleno y color para el contenido de los videos de youtube*/ 
+  background-color: whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+.content1{/*margenes,relleno y color para el contenido de noticias*/ 
+  background-color: whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  margin-right: 27%;
+  border-radius: 10px;
+}
+.content0{/*margenes,relleno y color para el contenedor de lista de la seccion cracks*/ 
+  background-color: whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  margin-right: 3%; 
+  border-radius: 10px;
+}
+iframe{/*margenes entre videos*/ 
+  padding: 8px;
+}
+.nav {/*color de la navbar*/ 
+  overflow: hidden;
+  background-color: darkred;
+}
+.nav a {/*color margenes, rellenos y color de los elemntos de la navbar*/ 
+  
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {/*colores de elemtos navbar cuando esta el mouse encima*/ 
+  background-color: whitesmoke;
+  color: black;
+}
+.nav a.icono {/*color del fondo para la clase icono*/ 
+  background-color: whitesmoke;
+}
+p{/*fuente y tamaño de fuente de los parrafos*/ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+a{/*le quitamos la decoracion al elemento a*/  
+  text-decoration: none;
+}
+#img{/*imagenes flotantes margenes y relleno*/ 
+  float: right;
+  margin: 8px;
+  padding-top: 8px;
+}
+.secu{/*margen tamaño color, relleno y bordes del div secundario para la app*/ 
+  margin-top: 8px;
+  float: right;
+  width: 22%;
+  background-color: whitesmoke;
+  margin-right: 3%;
+  padding: 10px;
+  border-radius: 10px;
+}
+#app{/*tamaño y relleno de imagen de descarga app*/ 
+  width: 80%;
+  padding: 15px;
+}
+footer {/*relleno, margen,color de fondo,color de fuente*/ 
+  padding-bottom: 20px;
+  margin: none;
+  background-color: #004080;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
+  display: inline;
+}
+p{
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 50px;
+}
+footer a{/*flotante relleno para el elemento a del footer*/ 
+  float: right;
+  padding: 5px;
+  display: inline;
+}
+img.not{/*relleno para img de noticias*/ 
+  padding-left: 50px;
+}
+@media only screen and (max-width: 600px) {/*condiciones para la responsividad de pagina, tamaño de los elementos en ea cantidad de pixeles*/ 
+  .content1, .content0, .contentyt, .secu,.head{
+    width: 100%;
+  }
+}
