@@ -1,0 +1,66 @@
+
+html{background-image: url("https://yt3.ggpht.com/a/AATXAJxmxToFXUmn5MMaCCK7lHq-5u8YYE-NEzZPWg=s900-c-k-c0xffffffff-no-rj-mo");
+    background-size: contain;
+}
+body{
+    margin: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    box-sizing: content-box ;
+}
+
+header {background-color: rgb(119, 0, 255);
+    width: 100%;
+	
+}
+#main{
+    background-color: rgb(185, 120, 120);
+}
+#seccion{
+    background-color: rgb(245, 221, 84);
+}
+
+aside{
+    background-color: orangered;
+}
+a:link{
+    color: aqua;
+}
+footer{
+    
+    background-color: aqua;
+}
+@media only screen and (max-width:600px){
+    
+
+    header{
+        background-color: rgb(119, 0, 255);
+        padding: 100%;
+        box-sizing: border-box;
+    }
+    #main{
+        background-color: rgb(185, 120, 120);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    #seccion{
+        background-color: rgb(245, 221, 84);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    aside{
+        background-color: orangered;
+    }
+    a:link{
+        color: aqua;
+    }
+    footer{
+        
+        background-color: aqua;
+
+
+
+    }
+    
+}

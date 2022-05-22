@@ -1,0 +1,85 @@
+
+html{background-image: url("https://yt3.ggpht.com/a/AATXAJxmxToFXUmn5MMaCCK7lHq-5u8YYE-NEzZPWg=s900-c-k-c0xffffffff-no-rj-mo");
+    background-size: contain;
+}
+body{
+    margin: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    box-sizing: content-box ;
+    font-size: 20px;%; 
+    
+}
+
+header {background-color: rgb(216, 67, 8);
+        font-size: xx-large;
+        color:blanchedalmond;
+	
+}
+#main{
+    background-color: rgb(245, 221, 84);
+}
+#seccion{
+    background-color: rgb(245, 221, 84);
+}
+
+aside{
+    background-color: rgb(172, 55, 9);
+    float: left;
+    margin: 1%;
+}
+a:link{
+    color: rgb(1, 5, 27);
+}
+footer{
+    
+    background-color: rgb(245, 221, 84);
+}
+@media only screen and (max-width:600px){
+    
+body{
+    margin: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    box-sizing: content-box ;
+    font-size: 20px;%; 
+    
+}
+    header{
+        background-color: black;
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: medium;
+    }
+    #main{
+        background-color: rgb(26, 16, 83);
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #seccion{
+        background-color: rgb(245, 221, 84);
+        padding: 15px;
+        box-sizing: border-box;
+    }
+img{
+    max-width: 70%;
+}
+    aside{
+        background-color: orangered;
+        font-size: small;
+        margin: 2%;
+        
+        
+    }
+    a:link{
+        color: aqua;
+    }
+    footer{
+        
+        background-color: aqua;
+
+
+
+    }
+    
+}
